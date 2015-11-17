@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "Disk Inventory X Finder CM";
+CFBundleShortVersionString = "Disk Inventory X CM version 1.1";
+CFBundleGetInfoString = "Disk Inventory X Finder Menu Plugin 1.1, Copyright 2006, Tjark Derlien";
+NSHumanReadableCopyright = "Copyright 2005, Tjark Derlien";

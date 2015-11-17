@@ -1,0 +1,157 @@
+{
+    IBClasses = (
+        {CLASS = FileKindStatistic; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = FileKindsPopupController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_kindsPopUpButton" = NSPopUpButton; "_windowController" = id; }; 
+            SUPERCLASS = GenericArrayController; 
+        }, 
+        {
+            ACTIONS = {showFilesInSelectionList = id; }; 
+            CLASS = FileKindsTableController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_kindsPopupArrayController" = NSArrayController; 
+                "_kindsTableArrayController" = NSArrayController; 
+                "_tableView" = NSTableView; 
+                "_windowController" = MainWindowController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {revealInFinder = id; zoomIn = id; zoomOut = id; }; 
+            CLASS = FileSystemDoc; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = FilesOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {
+            CLASS = FilesOutlineViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_contextMenu" = NSMenu; 
+                "_document" = FileSystemDoc; 
+                "_outlineView" = NSOutlineView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {openFile = id; openFileWith = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = GenericArrayController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {CLASS = MainWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            ACTIONS = {
+                changeSplitting = id; 
+                ignoreCreatorCode = id; 
+                moveToTrash = id; 
+                openFile = id; 
+                performLayoutBenchmark = id; 
+                performRenderBenchmark = id; 
+                refresh = id; 
+                refreshAll = id; 
+                selectParentItem = id; 
+                showFreeSpace = id; 
+                showInFinder = id; 
+                showInformationPanel = id; 
+                showOtherSpace = id; 
+                showPackageContents = id; 
+                showPhysicalSizes = id; 
+                toggleFileKindsDrawer = id; 
+                toggleSelectionListDrawer = id; 
+                zoomIn = id; 
+                zoomOut = id; 
+                zoomOutTo = id; 
+            }; 
+            CLASS = MainWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_filesOutlineView" = NSOutlineView; 
+                "_kindsDrawer" = NSDrawer; 
+                "_openWithSubMenu" = NSMenu; 
+                "_selectionListDrawer" = NSDrawer; 
+                "_splitter" = OASplitView; 
+                "_treeMapView" = TreeMapView; 
+            }; 
+            SUPERCLASS = OAToolbarWindowControllerEx; 
+        }, 
+        {CLASS = NSDictionary; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {ACTIONS = {splitViewDoubleClick = id; }; CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            CLASS = NSTableViewWithContextMenu; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            CLASS = NSToolbarItemValidationAdapter; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = OASplitView; LANGUAGE = ObjC; SUPERCLASS = NSSplitView; }, 
+        {
+            CLASS = OAToolbarWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = OAToolbarWindowControllerEx; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = OAToolbarWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                search = id; 
+                searchInAll = id; 
+                searchInKindNames = id; 
+                searchInNames = id; 
+                searchInPaths = id; 
+            }; 
+            CLASS = SelectionListController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_kindsPopupController" = GenericArrayController; 
+                "_progressIndicator" = NSProgressIndicator; 
+                "_searchField" = NSSearchField; 
+                "_windowController" = NSWindowController; 
+            }; 
+            SUPERCLASS = GenericArrayController; 
+        }, 
+        {
+            CLASS = SelectionListTableController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_kindStatisticsArrayController" = GenericArrayController; 
+                "_selectionListArrayController" = GenericArrayController; 
+                "_tableView" = NSTableView; 
+                "_windowController" = MainWindowController; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = TreeMapView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {dataSource = id; delegate = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = TreeMapViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_document" = FileSystemDoc; 
+                "_fileNameTextField" = id; 
+                "_fileSizeTextField" = id; 
+                "_treeMapView" = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

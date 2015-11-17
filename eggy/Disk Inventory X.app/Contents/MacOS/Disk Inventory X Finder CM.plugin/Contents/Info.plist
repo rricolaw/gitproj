@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Disk Inventory X Finder CM</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Disk Inventory X Finder Menu Plugin 1.1 - Copyright ©2006, Tjark Derlien</string>
+	<key>CFBundleIconFile</key>
+	<string>DIXFinderCM.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.derlien.DiskInventoryXFinderCM</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Path Finder CM</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleSignature</key>
+	<string>DIXM</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>29E65FF2-4AAE-11D9-A8A3-000393B64A0C</key>
+		<string>AbstractCMPluginFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>2F6522E9-3E66-11D5-80A7-003065B300BC</key>
+		<array>
+			<string>29E65FF2-4AAE-11D9-A8A3-000393B64A0C</string>
+		</array>
+	</dict>
+	<key>CFPlugInUnloadFunction</key>
+	<string></string>
+</dict>
+</plist>
